@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Horario"
+            android:icon="@drawable/ic_alum_horario_b"
+            android:title="Horario" />
+        <item
+            android:id="@+id/nav_Materias"
+            android:icon="@drawable/ic_alum_con_mat_b"
+            android:title="Materias" />
+        <item
+            android:id="@+id/nav_Calificaciones"
+            android:icon="@drawable/ic_alum_cons_cal_b"
+            android:title="Calificaciones" />
+        <item
+            android:id="@+id/nav_Examenes"
+            android:icon="@drawable/ic_alum_calendario_b"
+            android:title="Examenes" />
+    </group>
+
+    <item android:title="Communicate"
+        android:visible="true">
+        <menu>
+            <item
+                android:id="@+id/nav_perfil"
+                android:icon="@drawable/ic_perfil_pr"
+                android:title="Perfil" />
+            <item
+                android:id="@+id/nav_Logout"
+                android:icon="@drawable/ic_cerrars_b"
+                android:title="Cerrar Sesión" />
+        </menu>
+    </item>
+
+</menu>

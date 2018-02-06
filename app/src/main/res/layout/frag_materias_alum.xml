@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_grupos__pr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.daniel.calificator21.Grupos_PR">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/LineaM"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:weightSum="1">
+            <TextView
+                android:id="@+id/title_LM_Alu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materias"
+                android:textSize="24dp"
+                android:textColor="@color/inkDark"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"/>
+            <ListView
+                android:id="@+id/LM_Materias_Alu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

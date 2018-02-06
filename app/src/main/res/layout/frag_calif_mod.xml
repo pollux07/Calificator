@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/TV_tl_mat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calificar"
+                android:textSize="24dp"
+                android:textColor="@color/ink"
+                android:layout_gravity="center"
+                android:layout_marginTop="70dp"/>
+            <TextView
+                android:id="@+id/TV_mat_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Materias"
+                android:textSize="20dp"
+                android:textColor="@color/ink"
+                android:layout_marginTop="20dp"/>
+            <Spinner
+                android:id="@+id/SP_mat_calif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"></Spinner>
+
+            <TextView
+                android:id="@+id/TV_alu_cal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alumnos"
+                android:textSize="20dp"
+                android:textColor="@color/ink"
+                android:layout_marginTop="20dp"/>
+
+            <Spinner
+                android:id="@+id/SP_alu_calif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"></Spinner>
+
+            <Button
+                android:id="@+id/BTN_cont_calif"
+                style="?android:textAppearanceSmall"
+                android:layout_width="220dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="90dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/boton_calificator"
+                android:textColor="@color/ink"
+                android:text="@string/Continue"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calificator</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_menu_principal_pr">Calificator</string>
+    <string name="title_activity_menu_principal_al">Calificator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="prompt_usuario">usuario</string>
+    <string name="prompt_password">password</string>
+    <string name="LogIN">Entrar</string>
+    <string name="up">arriba</string>
+    <string name="title_activity_inicio__sesion">Inicio_Sesion</string>
+    <string name="Continue">Continuar</string>
+    <string name="textAlph">ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz" ""´"</string>
+</resources>
